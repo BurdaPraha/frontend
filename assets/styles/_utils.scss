@@ -1,0 +1,60 @@
+//
+// in parent
+// inspired from: https://css-tricks.com/full-width-containers-limited-width-parents/
+//
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/*
+ * navbar position for bootstrap 3
+ */
+.navbar-left {
+  float: left;
+  margin-left: 15px;
+}
+
+/*
+ * Required fields stars
+ * https://stackoverflow.com/questions/23141854/adding-asterisk-to-required-fields-in-bootstrap-3
+ */
+.form-group.required .control-label:after {
+  content: "*";
+  color: $formColorRquired;
+  padding-left: 5px;
+}
+
+/*
+ * Responsive text aligning for Bootstrap 3
+ * http://ohryan.ca/2014/08/14/set-responsive-text-alignment-bootstrap-3/
+ */
+.text-xs-left { text-align: left; }
+.text-xs-right { text-align: right; }
+.text-xs-center { text-align: center; }
+.text-xs-justify { text-align: justify; }
+
+@media (min-width: $screen-sm-min) {
+  .text-sm-left { text-align: left; }
+  .text-sm-right { text-align: right; }
+  .text-sm-center { text-align: center; }
+  .text-sm-justify { text-align: justify; }
+}
+
+@media (min-width: $screen-md-min) {
+  .text-md-left { text-align: left; }
+  .text-md-right { text-align: right; }
+  .text-md-center { text-align: center; }
+  .text-md-justify { text-align: justify; }
+}
+
+@media (min-width: $screen-lg-min) {
+  .text-lg-left { text-align: left; }
+  .text-lg-right { text-align: right; }
+  .text-lg-center { text-align: center; }
+  .text-lg-justify { text-align: justify; }
+}

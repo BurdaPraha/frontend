@@ -1,0 +1,20 @@
+//
+// Custom buttons for Bootstrap 3
+//
+
+.btn-black {
+  height: 49px;
+  color: #ffffff;
+  font-size: 1rem;
+  //line-height: 1rem;
+  font-weight: 700;
+  font-family: $btnBlackFont;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: #000;
+
+  &:hover, &:focus, &:active {
+    background: lighten(#000, 25%);
+    color: #fff;
+  }
+}

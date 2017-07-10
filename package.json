@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "@burdapraha/frontend",
   "version": "1.0.0",
   "description": "BurdaPraha UI kit",
   "main": "assets/javascripts/main.js",
@@ -12,5 +12,6 @@
   "bugs": {
     "url": "https://github.com/BurdaPraha/frontend/issues"
   },
-  "homepage": "https://github.com/BurdaPraha/frontend#readme"
+  "homepage": "https://github.com/BurdaPraha/frontend#readme",
+  "devDependencies": {},
 }

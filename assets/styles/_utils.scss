@@ -25,7 +25,7 @@
  */
 .form-group.required .control-label:after {
   content: "*";
-  color: $formColorRquired;
+  color: $color-form-required;
   padding-left: 5px;
 }
 

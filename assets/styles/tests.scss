@@ -1,0 +1,27 @@
+//
+// the main styles buddy!
+//
+@import "variables";
+@import "utils";
+@import "buttons";
+@import "mixins";
+
+
+//
+// testing place
+//
+.test {
+
+  &__visible_scrollbar-default {
+    @media screen and (max-width: $screen-md-min) {
+      @include visible_scrollbar();
+    }
+  }
+
+  &__visible_scrollbar {
+    @media screen and (max-width: $screen-md-min) {
+      @include visible_scrollbar(5px, 0px, #000, 0);
+    }
+  }
+
+}

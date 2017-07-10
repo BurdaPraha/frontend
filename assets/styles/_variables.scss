@@ -5,10 +5,10 @@
 // colors
 @import "colors";
 
-// todo: change this
-$screen-sm-min: 1;
-$screen-md-min: 1;
-$screen-lg-min: 1;
+// break-points
+$screen-sm-min: 768px !default;
+$screen-md-min: 992px !default;
+$screen-lg-min: 1200px !default;
 
 // fonts
-$btnBlackFont: "Arial";
+$font-base: "Arial", sans-serif !default;

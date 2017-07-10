@@ -6,7 +6,7 @@
 // useful for example to responsive tables with horizontal scroll
 // todo: test it with autoprefixer - IE, other browsers
 //
-@mixin visibleScrollBar($height: 12px, $border: 2px solid #000, $bg: #000, $border-radius: 12px) {
+@mixin visible_scrollbar($height: 12px, $border: 2px solid #000, $bg: #000, $border-radius: 12px) {
   overflow-x: scroll;
   width: 100%;
   white-space: nowrap;

@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "BurdaPraha UI kit",
+  "main": "assets/javascripts/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurdaPraha/frontend.git"
+  },
+  "author": "Michal Landsman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BurdaPraha/frontend/issues"
+  },
+  "homepage": "https://github.com/BurdaPraha/frontend#readme"
+}

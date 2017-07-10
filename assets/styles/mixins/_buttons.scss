@@ -1,0 +1,14 @@
+@mixin btn-black($height: 49px, $border: 0px, $bg: #000, $border-radius: $btn-border-radius-base) {
+  height: $height;
+  color: #ffffff;
+  font-size: 1rem;
+  //line-height: 1rem;
+  border: $border;
+  border-radius: $border-radius;
+  background: $bg;
+
+  &:hover, &:focus, &:active {
+    background: lighten($bg, 25%);
+    color: #ffffff;
+  }
+}

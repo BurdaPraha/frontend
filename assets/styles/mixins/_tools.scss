@@ -1,0 +1,25 @@
+
+//
+// useful for example to responsive tables with horizontal scroll
+// todo: test it with autoprefixer - IE, other browsers
+//
+@mixin visible_scrollbar($height: 12px, $border: 2px solid #000, $bg: #000, $border-radius: 12px) {
+  overflow-x: scroll;
+  width: 100%;
+  white-space: nowrap;
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-scrollbar:horizontal {
+    height: $height;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: $border-radius;
+    border: $border;
+    background: $bg;
+  }
+
+}

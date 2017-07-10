@@ -1,17 +1,16 @@
 //
-// the main styles buddy!
+// normal using simulate
 //
-@import "variables";
-@import "utils";
-@import "buttons";
-@import "mixins";
-
+@import "base";
 
 //
 // testing place
 //
 .test {
 
+  //
+  // tools
+  //
   &__visible_scrollbar-default {
     @media screen and (max-width: $screen-md-min) {
       @include visible_scrollbar();
@@ -22,6 +21,13 @@
     @media screen and (max-width: $screen-md-min) {
       @include visible_scrollbar(5px, 0px, #000, 0);
     }
+  }
+
+  //
+  // buttons
+  //
+  &__btn-black-default {
+    @include btn-black();
   }
 
 }

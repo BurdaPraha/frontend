@@ -3,6 +3,6 @@
 //
 @mixin list-responsive($child-display: 'inline-block') {
   > li {
-    display: $child-display;
+    display: unquote($child-display);
   }
 }

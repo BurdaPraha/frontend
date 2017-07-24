@@ -1,6 +1,6 @@
 {
   "name": "@burdapraha/frontend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BurdaPraha UI kit",
   "main": "assets/javascripts/main.js",
   "repository": {
@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/BurdaPraha/frontend#readme",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "publish": "npm publish --access=public"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

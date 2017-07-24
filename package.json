@@ -14,8 +14,7 @@
   },
   "homepage": "https://github.com/BurdaPraha/frontend#readme",
   "scripts": {
-    "test": "gulp",
-    "publish": "npm publish --access=public"
+    "test": "gulp"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

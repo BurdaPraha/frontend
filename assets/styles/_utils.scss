@@ -67,26 +67,44 @@
 .list-xs-inline {
   @include list-responsive();
 }
-.list-sm-inline {
-  @include list-responsive();
+
+@media (min-width: $screen-sm-min) {
+  .list-sm-inline {
+      @include list-responsive();
+  }
 }
-.list-md-inline {
-  @include list-responsive();
+
+@media (min-width: $screen-md-min) {
+  .list-md-inline {
+    @include list-responsive();
+  }
 }
-.list-lg-inline {
-  @include list-responsive();
+
+@media (min-width: $screen-lg-min) {
+  .list-lg-inline {
+    @include list-responsive();
+  }
 }
 
 // ------ block ------
 .list-xs-block {
   @include list-responsive('block');
 }
-.list-sm-block {
-  @include list-responsive('block');
+
+@media (min-width: $screen-sm-min) {
+  .list-sm-block {
+      @include list-responsive('block');
+  }
 }
-.list-md-block {
-  @include list-responsive('block');
+
+@media (min-width: $screen-md-min) {
+  .list-md-block {
+    @include list-responsive('block');
+  }
 }
-.list-lg-block {
-  @include list-responsive('block');
+
+@media (min-width: $screen-lg-min) {
+  .list-lg-block {
+    @include list-responsive('block');
+  }
 }

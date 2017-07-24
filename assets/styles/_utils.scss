@@ -58,3 +58,35 @@
   .text-lg-center { text-align: center; }
   .text-lg-justify { text-align: justify; }
 }
+
+//
+// alternative for bootstrap .list-inline
+//
+
+// ------ inline-block ------
+.list-xs-inline {
+  @include list-responsive();
+}
+.list-sm-inline {
+  @include list-responsive();
+}
+.list-md-inline {
+  @include list-responsive();
+}
+.list-lg-inline {
+  @include list-responsive();
+}
+
+// ------ block ------
+.list-xs-block {
+  @include list-responsive('block');
+}
+.list-sm-block {
+  @include list-responsive('block');
+}
+.list-md-block {
+  @include list-responsive('block');
+}
+.list-lg-block {
+  @include list-responsive('block');
+}

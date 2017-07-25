@@ -34,6 +34,21 @@
                 deferred.reject(new Error('Your browser does not support Geo Location.'));
             }
             return deferred.promise();
+        },
+
+
+        /**
+         * vanilla javascript $.getScript alternative
+         * @param url
+         */
+        getScript: function(url) {
+
+            var s        = document.createElement("script");
+            s.type       = "text/javascript";
+            s.language   = "javascript";
+            s.url        = url;
+
+            document.body.appendChild(s);
         }
 
     };

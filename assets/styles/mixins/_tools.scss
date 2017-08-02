@@ -6,10 +6,10 @@
 @mixin visible_scrollbar (
   $height: 12px,
   $border: 2px solid #000, 
-  $thumb_bg: #000, 
+  $thumb-bg: #000,
   $border-radius: 12px, 
-  $track_bg: #F5F5F5, 
-  $track_shadow: inset 0 0 6px rgba(0, 0 ,0 , 0.3)
+  $track-bg: #F5F5F5,
+  $track-shadow: inset 0 0 6px rgba(0, 0 ,0 , 0.3)
 ) {
   overflow-x: scroll;
   width: 100%;
@@ -26,12 +26,12 @@
   &::-webkit-scrollbar-thumb {
     border-radius: $border-radius;
     border: $border;
-    background: $thumb_bg;
+    background: $thumb-bg;
   }
 
   &::-webkit-scrollbar-track {
-    -webkit-box-shadow: $track_shadow;
-    background-color: $track_bg;
+    -webkit-box-shadow: $track-shadow;
+    background-color: $track-bg;
     border-radius: $border-radius;
   }
 }

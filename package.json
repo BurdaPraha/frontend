@@ -1,6 +1,6 @@
 {
   "name": "@burdapraha/frontend",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "BurdaPraha UI kit",
   "main": "assets/javascripts/main.js",
   "repository": {

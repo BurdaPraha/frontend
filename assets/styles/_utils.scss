@@ -59,6 +59,19 @@
   .text-lg-justify { text-align: justify; }
 }
 
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
 //
 // alternative for bootstrap .list-inline
 //

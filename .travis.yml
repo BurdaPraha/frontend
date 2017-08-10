@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+deploy:
+  provider: npm
+  email: "app@burda.cz"
+  api_key: $NPM_TOKEN
+  on:
+    tags: true

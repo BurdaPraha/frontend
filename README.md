@@ -1,5 +1,5 @@
 # Frontend
-library with useful sass, javascript for projects @ BurdaPraha
+library with useful sass, js classes, svg icons for projects @ BurdaPraha
 
 ## Contributing
 before you'll send commit / PR please run: `npm test` and check if gulp end with success
@@ -11,6 +11,7 @@ before you'll send commit / PR please run: `npm test` and check if gulp end with
 
 ## Another favourite contrib libs
 - the best lightbox [Magnific Popup](https://github.com/dimsemenov/Magnific-Popup)
+- sticky in vanilla js [sticky-js](https://github.com/rgalus/sticky-js) 
 - cookies helper [cookie.js](https://www.npmjs.com/package/cookies-js)
 - video player [Video.js](https://github.com/videojs/video.js)
 - CSS3 animates helper [animate.css](https://github.com/daneden/animate.css/)

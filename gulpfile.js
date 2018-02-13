@@ -10,7 +10,7 @@ var gulp            = require('gulp'),
 gulp.task('sass', function (cb)
 {
         return gulp
-            .src('./assets/styles/base.scss')
+            .src('./scss/base.scss')
             .pipe(sourcemaps.init())
             .pipe(sass())
             .pipe(prefixer({
@@ -19,7 +19,7 @@ gulp.task('sass', function (cb)
             }))
             .pipe(sourcemaps.write())
             .pipe(concat('style.css'))
-            .pipe(gulp.dest('./build/css'));
+            .pipe(gulp.dest('./dist/css'));
 });
 
 

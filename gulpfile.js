@@ -1,13 +1,14 @@
 const fs            = require('fs');
-var gulp            = require('gulp'),
+let gulp            = require('gulp'),
     runSequence     = require('run-sequence'),
     concat		    = require('gulp-concat'),
     sass		    = require('gulp-sass'),
     sourcemaps	    = require('gulp-sourcemaps'),
-    prefixer	    = require('gulp-autoprefixer');
+    prefixer	    = require('gulp-autoprefixer'),
+    svgo            = require('gulp-svgo');
 
 
-gulp.task('sass', function (cb)
+gulp.task('sass', () =>
 {
         return gulp
             .src('./scss/base.scss')
@@ -23,7 +24,15 @@ gulp.task('sass', function (cb)
 });
 
 
+gulp.task('svg', () => 
+{
+    return gulp.src('./svg/*')
+        .pipe(svgo())
+        .pipe(gulp.dest('./dist/svg'));
+});
+
+
 gulp.task('default', function()
 {
-    runSequence('sass');
+    runSequence('sass', 'svg');
 });

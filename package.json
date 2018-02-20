@@ -1,6 +1,6 @@
 {
   "name": "@burdapraha/frontend",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "BurdaPraha UI kit",
   "main": "assets/javascripts/main.js",
   "repository": {
@@ -25,6 +25,7 @@
     "gulp-sass": "~2.1.0",
     "gulp-sequence": "^0.4.6",
     "gulp-sourcemaps": "~1.6.0",
+    "gulp-svgo": "^1.3.1",
     "run-sequence": "^1.2.2"
   },
   "dependencies": {

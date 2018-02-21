@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="550px" height="117.273px"
-	 viewBox="0 0 550 117.273" style="enable-background:new 0 0 550 117.273;" xml:space="preserve">
-<path style="fill:#EE1558;" d="M44.178,39.828h1.279V13.075h-1.574c-0.59,2.253-0.984,2.957-2.755,2.957
+<svg version="1.1" id="svg_sz" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="550px" height="117.273px" viewBox="0 0 550 117.273" style="enable-background:new 0 0 550 117.273;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.path_sz {
+		fill: #EE1558;
+	}
+]]>
+</style>
+<path class="path_sz" d="M44.178,39.828h1.279V13.075h-1.574c-0.59,2.253-0.984,2.957-2.755,2.957
 	c-3.148,0-7.28-5.21-15.94-5.21c-13.873,0-23.711,14.081-23.711,29.006c0,40.413,40.537,23.798,40.537,51.818
 	c0,7.322-3.542,21.826-17.316,21.826c-3.936,0-9.249,0-15.251-8.449c-5.412-7.604-7.38-18.446-7.969-22.951H0v31.259h1.574
 	c0.689-2.534,1.279-3.238,3.05-3.238c2.657,0,11.217,5.352,19.285,5.352c16.039,0,27.156-15.771,27.156-34.219
